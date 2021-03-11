@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one,#two,#therd{
+            display: none;
+        }
+        @media screen and (min-width: 800px) {
+            #one{
+                display: inline-block;
+            }
+            
+        }
+        @media screen and (min-width: 600px) {
+         #two{
+             display: inline-block;
+         }
+        }
+
+        @media screen and (min-width: 500px) {
+            #therd{
+                display: inline-block;
+            }
+
+        }
+
+
+
+        #one{
+            width: 250px;
+            height: 250px;
+            background-color: blue;
+
+        }
+        #two{
+            width: 250px;
+            height: 250px;
+            background-color: blueviolet;
+
+        }
+        #therd{
+            width: 250px;
+            height: 250px;
+            background-color: cadetblue;
+        }
+        .h{
+            display: inline-block;
+            margin: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="h" id="one"></div>
+    <div class="h" id="two"></div>
+    <div class="h" id="therd"></div>
+</body>
+</html>
